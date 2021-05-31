@@ -1,5 +1,3 @@
-## README
-
 Welcome to the Aspect Apps contribution documentation! Yes... documentation, at Aspect Apps we strive for streamlined systems, that includes documentation, no more and no less. If you are new here, then please read on how to contribute to both our internal and open-source projects.
 
 ### Open Source Contributors
