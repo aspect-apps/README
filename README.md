@@ -20,12 +20,18 @@ If you are part of the Aspect Apps core team and want to create a new open sourc
 
 <img width="751" alt="Create New Repository on Github" src="https://user-images.githubusercontent.com/18139277/121162956-4c66bf00-c846-11eb-91f3-14f0df9178e8.png">
 
-- Then run the following commands, to setup the repository (replace `react-native-scroll-headers` with the repository you created):
+- Then run the following commands, to setup the repository (replace `my-new-os-repo` with the name of the repository you created):
 
 ```sh
-git clone https://github.com/aspect-apps/react-native-scroll-headers
-cd ./react-native-scroll-headers
-echo "# react-native-scroll-headers" >> README.md
+git clone https://github.com/aspect-apps/my-new-os-repo
+cd ./my-new-os-repo
+echo "# my-new-os-repo" >> README.md
 git init
-git remote add origin https://github.com/aspect-apps/react-native-scroll-headers.git
+git remote add origin https://github.com/aspect-apps/my-new-os-repo.git
 ```
+
+Once you have created your project, you can run the `install-open-source-automation.sh` by downloading it onto your computer from the `/scripts` folder and running `bash install-open-source-automation.sh` in your project. If your project uses typescript, you can pass a `-typescript` flag i.e. `bash install-open-source-automation.sh -typescript`. This will install the following:
+
+- [Commitlint](https://github.com/conventional-changelog/commitlint) to verify commit message format.
+- [Husky](https://github.com/typicode/husky), [Lint Staged](https://github.com/okonet/lint-staged) and [Prettier](https://prettier.io/) for commit hooks and linting.
+- [Semantic Release](https://github.com/semantic-release/semantic-release) setup with Github Actions to automate git and NPM releases.
