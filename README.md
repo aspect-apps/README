@@ -30,7 +30,7 @@ git init
 git remote add origin https://github.com/aspect-apps/my-new-os-repo.git
 ```
 
-Once you have created your project, you can run the `install-open-source-automation.sh` by downloading it onto your computer from the `/scripts` folder and running `bash install-open-source-automation.sh` in your project. If your project uses typescript, you can pass a `-typescript` flag i.e. `bash install-open-source-automation.sh -typescript`. This will install the following:
+Once you have created your project, you can run the `install-open-source-automation.sh` by downloading it onto your computer from the [/scripts](https://github.com/aspect-apps/README/tree/main/scripts) folder and running `bash install-open-source-automation.sh` in your project. If your project uses typescript, you can pass a `-typescript` flag i.e. `bash install-open-source-automation.sh -typescript`. This will install the following:
 
 - [Commitlint](https://github.com/conventional-changelog/commitlint) to verify commit message format.
 - [Husky](https://github.com/typicode/husky), [Lint Staged](https://github.com/okonet/lint-staged) and [Prettier](https://prettier.io/) for commit hooks and linting.
